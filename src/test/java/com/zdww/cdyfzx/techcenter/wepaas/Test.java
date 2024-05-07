@@ -20,7 +20,6 @@ public class Test {
         new Thread(t::test1).start();
         new Thread(t::test1).start();
         new Thread(t::test1).start();
-
         new Thread(t::test).start();
     }
 }
